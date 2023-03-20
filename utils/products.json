@@ -1,0 +1,113 @@
+[
+    {
+      "id": 1,
+      "title": "iPhone 12 Pro",
+      "description": "Smartphone, pantalla de 6.1\", chip A14 Bionic y cámaras 12MP.",
+      "price": 1300,
+      "thumbnail": ["https://http2.mlstatic.com/D_NQ_NP_957657-MLA53233576692_012023-O.webp"],
+      "code": "fj29rmgn12",
+      "stock": 19,
+      "category": "technology",
+      "status": true
+    },
+    {
+      "id": 2,
+      "title": "Lenovo Ideapad 3",
+      "description": "Notebook Intel Core i3 1005G1, 8GB de RAM y SSD de 256GB.",
+      "price": 470,
+      "thumbnail": ["https://http2.mlstatic.com/D_NQ_NP_973048-MLA48623275528_122021-O.webp"],
+      "code": "a1or9w34",
+      "stock": 47,
+      "category": "technology",
+      "status": true
+    },
+    {
+      "id": 3,
+      "title": "Smart TV Sony X80J Series KD-55X80J",
+      "description": "Televisor LCD 55\" resolución 4K, tecnología HDR.",
+      "price": 870,
+      "thumbnail": ["https://http2.mlstatic.com/D_NQ_NP_666095-MLA52218182586_102022-O.webp"],
+      "code": "94doS12q",
+      "stock": 20,
+      "category": "technology",
+      "status": true
+    },
+    {
+      "id": 4,
+      "title": "Mouse Noga Stormer Series ST-400",
+      "description": "Mouse inalámbrico black 2400dpi.",
+      "price": 15,
+      "thumbnail": ["https://http2.mlstatic.com/D_NQ_NP_804465-MLA43632432319_092020-O.webp"],
+      "code": "kf4l2s01",
+      "stock": 38,
+      "category": "technology",
+      "status": true
+    },
+    {
+      "id": 5,
+      "title": "Teclado Redragon Kumara K552",
+      "description": "Teclado mecánico con diseño ergonómico y retroiluminación RGB.",
+      "price": 50,
+      "thumbnail": ["https://http2.mlstatic.com/D_NQ_NP_831607-MLA52350664966_112022-O.webp"],
+      "code": "0fdp22S1",
+      "stock": 76,
+      "category": "technology",
+      "status": true
+    },
+    {
+      "id": 6,
+      "title": "Botella térmica deportiva",
+      "description": "Botella hermética de 500mL de acero inoxidable a rosca.",
+      "price": 12,
+      "thumbnail": ["https://http2.mlstatic.com/D_NQ_NP_647216-MLA52048668918_102022-O.webp"],
+      "code": "0fgk82S1",
+      "stock": 34,
+      "category": "sport",
+      "status": true
+    },
+    {
+      "id": 7,
+      "title": "Fender American Original '60s Jazzmaster",
+      "description": "Guitarra eléctrica de aliso 3-color sunburst brillante con diapasón de palo de rosa.",
+      "price": 3200,
+      "thumbnail": ["https://http2.mlstatic.com/D_NQ_NP_769002-MLA48801643166_012022-O.webp"],
+      "code": "24mf9r7t",
+      "stock": 15,
+      "category": "instruments",
+      "status": true
+    },
+    {
+      "id": 8,
+      "title": "Amplificador Marshall Code 50",
+      "description": "Amplificador Marshall negro 50W.",
+      "price": 500,
+      "thumbnail": ["https://http2.mlstatic.com/D_NQ_NP_916368-MLA45756565004_042021-O.webp"],
+      "code": "k2ps39c5",
+      "stock": 20,
+      "category": "instruments",
+      "status": true
+    },
+    {
+      "id": 9,
+      "title": "Amplificador Marshall MS-4",
+      "description": "Amplificador Marshall transistor para guitarra 2W.",
+      "price": 105,
+      "thumbnail": ["https://http2.mlstatic.com/D_NQ_NP_967278-MLA32660949101_102019-O.webp"],
+      "code": "G7sa4dO9a",
+      "stock": "12",
+      "category": "instruments",
+      "status": true
+    },
+    {
+      "id": 10,
+      "title": "Sofá Dadaa",
+      "description": "Sofá de estilo escandinavo de 2 cuerpos gris de chenille y patas color crema de madera.",
+      "price": 159,
+      "thumbnail": ["https://http2.mlstatic.com/D_NQ_NP_704674-MLA51734752568_092022-O.webp"],
+      "code": "xM7s3Ju28",
+      "stock": "32",
+      "category": "furniture",
+      "status": true
+    }
+  ]
+  

@@ -1,0 +1,56 @@
+<h1>Productos</h1>
+
+{{#if products.length}}
+
+    <div class="products-container">
+        
+        {{#each products}}
+
+                <div class="product-container">
+                    <h3>{{title}}</h3>
+                    <img src="{{thumbnail}}">
+                    <p>{{description}}</p>
+                    <h4>Categoría: {{category}}</h4>
+                    <h4>${{price}}</h4>
+                    <h5>Cantidad en stock: {{stock}}</h5>
+                    <button id={{id}}>Agregar al carrito</button>
+                    <br><br><br><br>
+                </div>
+
+        {{/each}}
+
+        {{#if results.hasPrevPage}}
+            <button id="prevPage" value={{results.prevLink}}>Ir a página {{results.prevPage}}</button>
+        {{/if}}
+
+        {{#if results.hasNextPage}}
+            <button id="nextPage" value={{results.nextLink}}>Ir a página {{results.nextPage}}</button>
+        {{/if}}
+
+    </div>
+
+{{else}}
+
+    <h2>NO HAY PRODUCTOS</h2>
+
+{{/if}}
+
+<script>
+    const prevButton = document.getElementById("prevPage");
+    const nextButton = document.getElementById("nextPage");
+    
+    if (prevButton) {
+        prevButton.addEventListener('click', e => {
+            e.preventDefault()
+            window.open(e.target.value, '_self')
+        })
+    }
+
+    if (nextButton) {
+        nextButton.addEventListener('click', e => {
+            e.preventDefault()
+            window.open(e.target.value, '_self')
+        })
+    }
+
+</script>

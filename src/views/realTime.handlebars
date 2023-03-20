@@ -1,0 +1,42 @@
+<h2>Agregar un producto</h2>
+
+<form id="add-product-form">
+    <label for="title">Nombre:</label>
+    <input type="text" id="title" name="title">
+
+    <label for="description">Descripción:</label>
+    <input type="text" id="description" name="description">
+
+    <label for="price">Precio:</label>
+    <input type="number" id="price" name="price">
+
+    <label for="thumbnail">URL de la imagen:</label>
+    <input type="text" id="thumbnail" name="thumbnail">
+
+    <label for="code">Code:</label>
+    <input type="text" id="code" name="code">
+
+    <label for="stock">Stock:</label>
+    <input type="number" id="stock" name="stock">
+
+    <label for="category">Categoría:</label>
+    <input type="text" id="category" name="category">
+
+    <button type="submit">Agregar Producto</button>
+</form>
+
+<h2>Eliminar un Producto</h2>
+
+<form id="delete-product-form">
+    <label for="id">ID del producto a eliminar:</label>
+    <input type="text" id="id" name="id">
+
+    <button type="submit">Eliminar Producto</button>
+</form>
+
+<h2>LISTA DE PRODUCTOS</h2>
+
+<div id='real-time-products-list'></div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/index.js"></script>
